@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   margin: 30px 0;
-  width: 50rem;
+  width: 65%;
 }
 
 .card {
-  margin: 0 2% !important;
+  margin: 0 1% !important;
+  width: 30rem;
 }
 
 .infected {
@@ -22,9 +23,9 @@
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 740px) {
   .cardcontainer {
-    width: 100%;
+    width: 95% !important;
   }
 
   .card {
